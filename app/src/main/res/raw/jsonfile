@@ -1,0 +1,125 @@
+{
+  "predictions": [
+    {
+      "description": "HDFC Bank | Florence Bldg, Viman Nagar, Shop No 2 & 3, Next To Tata Indicom, Viman Nagar, Konark Nagar, Clover Park, Viman Nagar, Pune, Maharashtra 411051",
+      "lat": "18.5664665",
+      "lng": "73.9139557",
+      "rating": 3.0
+    },
+    {
+      "description": "HDFC Bank ATM | SN 7, Balaji Height, Chandan Nagar, Pune, Maharashtra 411014",
+      "lat": "18.5630898",
+      "lng": "73.9321947",
+      "rating": 3.5
+    },
+    {
+      "description": "HDFC Bank ATM | Survey No 1673, Dr Br Shirsath Complex, Tulaja Bhawani Nagar, Dayal Bagh, Sonai, Maharashtra 414105",
+      "lat": "18.5645747",
+      "lng": "73.9485455",
+      "rating": 3.8
+    },
+    {
+      "description": "HDFC Bank ATM | SN 5, Krishna Plaza, Sy No 46/3, Bombay SOC, Chandan Nagar, Pune, Maharashtra 411014",
+      "lat": "18.5615235",
+      "lng": "73.9383316",
+      "rating": 3.0
+    },
+    {
+      "description": "HDFC Bank ATM | SN 46, PN 19, Kharadi Rd, Chandannagar, Sunita Nagar, Vadgaon Sheri, Pune, Maharashtra 411014",
+      "lat": "18.5594894",
+      "lng": "73.9311433",
+      "rating": 2.5
+    },
+    {
+      "description": "HDFC Bank ATM | SN 1, Hermes Heritage, Shastri Nagar Chowk, Kalyani Nagar, Shastrinagar, Yerawada, Pune, Maharashtra 411006",
+      "lat": "18.5559397",
+      "lng": "73.8994181",
+      "rating": 4.0
+    },
+    {
+      "description": "HDFC Bank ATM | HDFC Bank ATM, Sy No 2, Gaadital, Yerwada, Mother Teresa Nagar, Kashmiri Colony, Yerawada, Pune, Maharashtra 411006",
+      "lat": "18.5458599",
+      "lng": "73.8871121",
+      "rating": 4.1
+    },
+    {
+      "description": "HDFC Bank ATM | SN 4, Somnath Nagar, Vadgaonsheri, Azad Nagar, Shri Home Housing Society, Vadgaon Sheri, Pune, Maharashtra 411014",
+      "lat": "18.5556448",
+      "lng": "73.9209616",
+      "rating": 4.2
+    },
+    {
+      "description": "HDFC Bank ATM | SN 6, Prabhakar Chambers, Sainikwadi, Wadgaonsheri, Sainikwadi, Vadgaon Sheri, Pune, Maharashtra 411014",
+      "lat": "18.5504676",
+      "lng": "73.9162731",
+      "rating": 4.3
+    },
+    {
+      "description": "HDFC Bank ATM | SN 10, Punya Nagari, Vadgaon, Balajinagar, Mahadev Nagar, Vadgaon Sheri, Pune, Maharashtra 411014",
+      "lat": "18.5471924",
+      "lng": "73.9242017",
+      "rating": 4.4
+    },
+    {
+      "description": "HDFC Bank ATM | SN 15, Yashwant Plaza, Shrikrishna Wadi, Vadgoan Sheri, Digambar Nagar, Vadgaon Sheri, Pune, Maharashtra 411014",
+      "lat": "18.5464295",
+      "lng": "73.9214659",
+      "rating": 5.0
+    },
+    {
+      "description": "HDFC Bank ATM | 47/3, WN 3/1121, Ganesh Nagar, Wadgoansheri, Aga Nagar, Vadgaon Sheri, Pune, Maharashtra 411014",
+      "lat": "18.5576078",
+      "lng": "73.927356",
+      "rating": 3.2
+    },
+    {
+      "description": "HDFC Bank ATM | 6/1/2, SN 3, Kharadi, Rakshak Nagar, Kharadi, Pune, Maharashtra 411014",
+      "lat": "18.5496742",
+      "lng": "73.9421403",
+      "rating": 3.3
+    },
+    {
+      "description": "HDFC Bank ATM | Shop No 3 Survey No 22/1/1, Charoli, Thite Nagar, Baner, Pune, Maharashtra 411014",
+      "lat": "18.5443951",
+      "lng": "73.9403272",
+      "rating": 3.4
+    },
+    {
+      "description": "HDFC बँक | Ruby House, Kharadi Magarpatta Bye Pass, Kharadi, Sainath Nagar, Vadgaon Sheri, Pune, Maharashtra 411014",
+      "lat": "18.5409164",
+      "lng": "73.9346731",
+      "rating": 3.5
+    },
+    {
+      "description": "HDFC Bank | SN 21/22, FN 2, Gulmohar CHS, Lane No 7, Koregaon park, Meera Nagar, Koregaon Park, Pune, Maharashtra 411001",
+      "lat": "18.5390549",
+      "lng": "73.9009845",
+      "rating": 3.6
+    },
+    {
+      "description": "HDFC Bank ATM | SN 15, Ganga Orchard, Pingale Vasti, Ghorpadi MundHWa Rd, Fatima Nagar, Pingale Wasti, Koregaon Park Annexe, Mundhwa, Pune, Maharashtra 411036",
+      "lat": "18.53168",
+      "lng": "73.9130545",
+      "rating": 3.8
+    },
+    {
+      "description": "HDFC Bank ATM | SN 3 ,Sr 152/153, Dalvi Heights, MundHWa, Jai Maharashtra Colony, Keshav Nagar, Mundhwa, Pune, Maharashtra 411036",
+      "lat": "18.5303575",
+      "lng": "73.9424944",
+      "rating": 3.9
+    },
+    {
+      "description": "HDFC Bank ATM | BPCL, Magar Petroleum, Mundhava Rd, Hadapsar, Hadapsar, Pune, Maharashtra 411028",
+      "lat": "18.5155252",
+      "lng": "73.9329886",
+      "rating": 4.1
+    },
+    {
+      "description": "HDFC Bank | UG Flr, The Destination Centre, Magarpatta, Hadapsar, Magarpatta City, Hadapsar, Pune, Maharashtra 411028",
+      "lat": "18.5095635",
+      "lng": "73.9280105",
+      "rating": 4.5
+    }
+  ],
+  "status": "OK"
+}

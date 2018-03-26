@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/mDrawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/toolbar_bg">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:backgroundTint="@android:color/transparent"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:theme="@style/ToolbarStyle">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="@dimen/dimen_10dp">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/google_places"
+                            android:textColor="@color/white"
+                            android:layout_toLeftOf="@+id/imgSearch"
+                            android:gravity="center"
+                            android:textSize="@dimen/dimen_18dp" />
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/imgSettings"
+                            android:layout_width="@dimen/dimen_32dp"
+                            android:layout_height="@dimen/dimen_32dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:padding="@dimen/dimen_5dp"
+                            android:src="@drawable/ic_settings"
+                            android:tint="@color/white" />
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/imgSearch"
+                            android:layout_width="@dimen/dimen_32dp"
+                            android:layout_height="@dimen/dimen_32dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/dimen_10dp"
+                            android:layout_toLeftOf="@+id/imgSettings"
+                            android:padding="@dimen/dimen_5dp"
+                            android:src="@drawable/ic_search"
+                            android:tint="@color/white" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.Toolbar>
+            </FrameLayout>
+
+            <fragment
+                android:id="@+id/mapFragment"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></fragment>
+        </LinearLayout>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/mNavigationView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@drawable/item_background"
+            android:keepScreenOn="false"
+            android:scrollbars="none"
+            app:headerLayout="@layout/layout_navigation_header"
+            app:itemTextColor="@color/drawer_item_text_color"
+            app:menu="@menu/menu_navigation" />
+    </android.support.v4.widget.DrawerLayout>
+
+    <FrameLayout
+        android:id="@+id/flProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_balck"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"></ProgressBar>
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>
